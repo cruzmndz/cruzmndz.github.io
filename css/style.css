@@ -1,6 +1,8 @@
 body{
   background-color: #F1F5F8;
   font-family: 'Roboto', Helvetica;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /*-----------navigation bar------------------------------*/
@@ -317,7 +319,7 @@ header{
 }*/
 
 .archImgs:hover{
-  transform: scale(1.4);
+  transform: scale(1.1);
   border-radius: 150px;
 }
 
@@ -444,18 +446,17 @@ label{
 
 footer{
   width: 100%;
-  height: 250px;
-  background-image: linear-gradient( rgba(241, 245, 248, 1.9), rgba(59, 59, 59, 0.5) ), url("../img/blueprint.jpg");
+  height: 100%;
+  background-image: linear-gradient( rgba(241, 245, 248, 2.0), rgba(59, 59, 59, 0.5) ), url("../img/blueprint.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   box-sizing: border-box;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   margin-top: 30px;
 }
 
 .footer-title{
-  margin-top: 20px;
-  padding-top: 70px;
+  padding-top: 30px;
   overflow: hidden;
 }
 
