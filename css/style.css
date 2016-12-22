@@ -14,6 +14,14 @@ nav{
   /*position: fixed;*/
 }
 
+#lg-nav0{
+  background-color: transparent;
+  margin-top: 15px;
+  opacity: .3;
+  margin-left: -13px;
+  color: black;
+}
+
 #lg-nav1{
   background-color: transparent;
   margin-top: 50px;
@@ -22,7 +30,7 @@ nav{
   color: black;
 }
 
-#lg-nav1:hover, #lg-nav2:hover, #lg-nav3:hover, #lg-nav4:hover, #lg-nav5:hover, #lg-nav6:hover{
+#lg-nav0:hover, #lg-nav1:hover, #lg-nav2:hover, #lg-nav3:hover, #lg-nav4:hover, #lg-nav5:hover, #lg-nav6:hover{
   opacity: 1;
 }
 
