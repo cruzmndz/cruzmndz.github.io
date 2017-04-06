@@ -1,8 +1,10 @@
 body{
-  background-color: #F1F5F8;
+  /*background-color: #F1F5F8;*/
   font-family: 'Roboto', Helvetica;
-  width: 90%;
-  margin: 0 auto;
+  /*width: 90%;*/
+  /*margin: 0 auto;*/
+  background-image: url("../img/header.jpg");
+  background-size: cover;
 }
 
 /*-----------navigation bar------------------------------*/
@@ -145,9 +147,9 @@ nav{
 
 header{
   width: 100%;
-  height: 400px;
-  background-image: url("../img/header.jpg");
-  background-position: bottom;
+  height: 700px;
+  /*background-image: url("../img/header.jpg");*/
+  /*background-position: bottom;*/
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: 100;
@@ -165,6 +167,10 @@ header{
   align-self: center;
 }
 
+.animated{
+  animation-delay: 4s;
+}
+
 #title{
   display: flex;
   flex-direction: column;
@@ -172,7 +178,7 @@ header{
   border-right: 1px solid white;
   padding-left: 25px;
   line-height: 35px;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 
 #text-roll{
@@ -184,6 +190,10 @@ header{
   letter-spacing: 7px;
   font-size: 18px;
   align-items: right;
+}
+
+.rw-wrapper{
+  margin-right: 50px;
 }
 
 .text-roll-span{
@@ -230,8 +240,8 @@ header{
 }
 
 #subtitle{
-  letter-spacing: 5px;
-  font-size: 12px;
+  letter-spacing: 6px;
+  font-size: 15px;
   text-align: center;
 }
 
