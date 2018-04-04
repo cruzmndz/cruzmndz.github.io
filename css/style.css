@@ -174,9 +174,10 @@ nav{
 .nav-buttons{
   padding: 25px;
   color: white;
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: 5px;
+  font-weight: bolder;
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-family: 'Karla';
 }
 
 /*--------------------FOOTER------*/
