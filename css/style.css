@@ -225,7 +225,7 @@ nav{
 .filter-title-h4{
   /* padding: 20px 40px; */
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 8px;
   margin: none;
   padding: none;
@@ -244,7 +244,24 @@ nav{
   width: 200px;
   height: 200px;
   border: 1px solid black;
-  padding: 10px;
+  margin: 20px;
+  overflow: hidden;
+  opacity: .7;
+}
+
+.white-back{
+  background-color: white;
+}
+
+.filter-divs:hover {
+  opacity: 1;
+  box-shadow: 10px 10px 30px;
+  transition:  box-shadow .5s ease-in-out;
+  -moz-transition:  box-shadow .5s ease-in-out;
+  -webkit-transition:  box-shadow .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
 }
 
 /*--------------------FOOTER------*/
@@ -265,7 +282,7 @@ footer{
 #filters-footer{
   /*width: 100%;*/
   height: 800px;
-  background-image: linear-gradient( rgba(49, 49, 49, 0.6), rgba(96, 176, 177, 3.0) ), url("../img/blueprint.jpg");
+  background-image: linear-gradient( rgba(49, 49, 49, 0.6), rgba(112,198, 201, 3.0) ), url("../img/blueprint.jpg");
   background-size: cover;
   /*background-repeat: no-repeat;*/
   box-sizing: border-box;
@@ -273,6 +290,20 @@ footer{
   /* margin-top: 100px; */
   /*padding-bottom: 30px;*/
 }
+
+#digital-footer{
+  /*width: 100%;*/
+  height: auto;
+  padding-bottom: 100px;
+  background-image: linear-gradient( rgba(49, 49, 49, 0.6), rgba(112,198, 201, 3.0) ), url("../img/blueprint.jpg");
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  box-sizing: border-box;
+  /*background-attachment: fixed;*/
+  /* margin-top: 100px; */
+  /*padding-bottom: 30px;*/
+}
+
 
 #contact-footer{
   /*width: 100%;*/
@@ -311,7 +342,7 @@ h4{
   color: white;
   font-weight: 100;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 50px;
   margin-left: 30px;
 }
 
